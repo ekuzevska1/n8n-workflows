@@ -1,0 +1,1261 @@
+{
+  "active": true,
+  "brand": "# Revenue Experts Brand Guide\n*Chopping through AI hype to build stuff that actually works*\n\n## Brand Story\nRevenue Experts started because three marketing veterans got tired of watching businesses drown in AI snake oil. While everyone else was promising AGI miracles, we were building custom AI agents that actually solve real problems. No coding required, no BS promises - just practical automation that saves you 15+ hours per week and stops the $2000+ monthly SaaS bleeding.\n\n**Founded by builders who've been there:** Elizabeta (25 years turning marketing chaos into revenue), John (30 years making enterprise deals happen), and Peter (turning overwhelmed entrepreneurs into confident operators). We've lived through every marketing fad and learned what actually moves the needle.\n\n## Brand Mission\n**Cut through AI hype to build custom revenue solutions that work.** We help B2B companies implement AI agents that actually solve business problems - not because it's trendy, but because it saves time and makes money.\n\n## Brand Values\n- **Results Over Rhetoric**: Working code beats marketing slides every time\n- **Anti-Hype Truth**: Call out AI BS while building practical solutions  \n- **Custom Over Cookie-Cutter**: Your business is unique, your AI should be too\n- **No-Code Empowerment**: Advanced tech without the technical barriers\n- **Transparent Value**: Show exactly what you're getting and what it costs\n\n## Brand Personality\n**The Experienced Operator** - Part skeptical veteran, part practical builder. Cuts through industry noise to deliver solutions that actually work. Uses decades of real-world experience to separate AI wheat from chaff.\n\n## Visual Identity\n- **Aesthetic**: Professional minimalism with subtle tech elements\n- **Core Elements**: Clean interfaces, data visualizations, workflow diagrams\n- **Style**: Clear, readable, action-oriented - workshop meets boardroom\n- **Feel**: Confident competence without the Silicon Valley theatrics\n\n## Voice & Tone\n**Voice**: Experienced authority with zero tolerance for BS. Like getting advice from someone who's already solved your exact problem.\n\n**Tone Variations**:\n- Educational: Direct, step-by-step, no fluff\n- Commentary: Skeptical of hype, focused on reality\n- Client Work: Collaborative, results-focused, transparent\n- Marketing: Value-heavy, proof-driven, honest about limitations\n\n## Key Messages\n1. **\"Your Business Challenges, Our AI Solutions\"** - Custom-built for your specific problems\n2. **\"Save 15+ hours per week\"** - Quantifiable time liberation through automation\n3. **\"Stop the SaaS subscription bleeding\"** - Replace multiple tools with custom agents\n4. **\"While everyone drowns in AI hype\"** - The anti-snake-oil position\n\n## Target Audience\n**The Practical B2B Leader**: Small to mid-size business owners making $500k-$5M annually. Tired of complex marketing tech stacks. Values efficiency and measurable results. Wants AI benefits without the technical complexity or consultant dependency.\n\n## Solution Categories\n\n### 🤖 AI-Powered Experts\nCustom virtual team members that actually know your business:\n- Marketing optimization that understands your market\n- Revenue analysis that tracks what matters\n- Competitive intelligence that spots real opportunities\n- Content strategy that matches your voice\n\n**Reality Check**: These aren't ChatGPT wrappers. They're trained on your data, your processes, your goals.\n\n### 💬 Customer-Facing Devices (CFDs)\nWebsite assistants that do more than answer FAQ:\n- Real-time lead qualification \n- Product recommendations based on actual behavior\n- Sales support that knows your offerings\n- Troubleshooting that solves real problems\n\n**No Generic Chatbots**: Every CFD is built for your specific customer journey.\n\n### ⚙️ Workflow Automation\nPrompt chains that handle complex business processes:\n- Sales conversation flows that actually convert\n- Customer journey automation that retains\n- Campaign orchestration that adapts\n- Content strategy that scales\n\n### 📚 Knowledge Integration\nTurn your expertise into AI-powered assets:\n- Industry knowledge that stays current\n- Company processes that onboard new team members\n- Customer insights that improve over time\n- Best practices that compound results\n\n## Brand Promise\nTransform complex AI into practical business tools using proven frameworks, not theoretical possibilities. We build what works, not what sounds impressive.\n\n## Differentiators\n- **Zero Hype Approach**: We tell you what AI can't do before we sell you what it can\n- **Custom Everything**: No templates, no one-size-fits-all solutions\n- **Veteran Team**: 80+ combined years of actual business experience\n- **No-Code Reality**: Advanced capabilities without technical dependencies\n- **Transparent Pricing**: You know exactly what you're paying for and why\n\n## Communication Guidelines\n**DO**: Share specific results, challenge assumptions, provide actionable steps, reference real client outcomes, admit limitations\n\n**DON'T**: Promise AGI miracles, use buzzword bingo, gatekeep information, overcomplicate simple solutions, ignore the human element\n\n## Expected Outcomes\nStop promising unicorns, start delivering workhorses:\n\n- **15+ hours saved weekly** through intelligent automation\n- **$2000+ monthly SaaS reduction** by replacing multiple tools\n- **25-40% conversion improvement** with custom customer journeys  \n- **3x faster content production** without losing quality\n- **Real-time competitive intelligence** that informs strategy\n\n## Pricing Philosophy\n**\"Good enough substitute\" pricing**: Premium results without enterprise complexity. Pay for what works, not what impresses investors.\n\n## Contact Information\n**Founders**: Elizabeta Kuzevska, John Bush, Peter Von Moltke  \n**Website**: revenueexperts.ai  \n**Approach**: Direct consultation, custom solutions, transparent pricing\n\n---\n\n*Revenue Experts: Where AI hype meets business reality. For operators who prefer results over rhetoric.*",
+  "connections": {
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "Get file data",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Merge Items",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Get File": {
+      "main": [
+        [
+          {
+            "node": "Merge Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge Items": {
+      "main": [
+        [
+          {
+            "node": "isDiffOrNew",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get file data": {
+      "main": [
+        [
+          {
+            "node": "If file too large",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create new file": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Execute Workflow",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute Workflow": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "n8n workflows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If file too large": {
+      "main": [
+        [
+          {
+            "node": "Get File",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Merge Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit existing file": {
+      "main": [
+        [
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute Workflow Trigger": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Generate commit message for new workflow",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Auto-fixing Output Parser1",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Auto-fixing Output Parser1": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Generate commit message for new workflow",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "n8n workflows": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "isDiffOrNew": {
+      "main": [
+        [
+          {
+            "node": "Switch",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Auto-fixing Output Parser1",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch": {
+      "main": [
+        [
+          {
+            "node": "Generate commit message for new workflow",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Generate README for Workflow",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Generate commit message",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Generate Changelog for Workflow",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Return",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Generate commit message",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Auto-fixing Output Parser",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Auto-fixing Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Generate commit message",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser1": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Auto-fixing Output Parser",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate commit message": {
+      "main": [
+        [
+          {
+            "node": "Edit existing file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model2": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Generate README for Workflow",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Auto-fixing Output Parser2",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Auto-fixing Output Parser2": {
+      "ai_outputParser": [
+        []
+      ]
+    },
+    "Structured Output Parser2": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Auto-fixing Output Parser2",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate README for Workflow": {
+      "main": [
+        [
+          {
+            "node": "Create README",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create README": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Return",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate commit message for new workflow": {
+      "main": [
+        [
+          {
+            "node": "Create new file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model3": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Generate Changelog for Workflow",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Auto-fixing Output Parser3",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Auto-fixing Output Parser3": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Generate Changelog for Workflow",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser3": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Auto-fixing Output Parser3",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge1": {
+      "main": [
+        [
+          {
+            "node": "Return",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Changelog for Workflow": {
+      "main": [
+        [
+          {
+            "node": "Create new changelog",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create new changelog": {
+      "main": [
+        [
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-07-26T19:08:04.867Z",
+  "id": "4pAs2SDFzFpAlWbJ",
+  "isArchived": false,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "name": "Adding Workflow in Guthub",
+  "nodes": [
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "8d513345-6484-431f-afb7-7cf045c90f4f",
+              "name": "Done",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "03745014-7ef9-4fd5-a75b-70cb59aceb4c",
+      "name": "Return",
+      "type": "n8n-nodes-base.set",
+      "position": [
+        1480,
+        740
+      ],
+      "typeVersion": 3.3
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.download_url }}",
+        "options": {}
+      },
+      "id": "109add72-fb12-4887-ada1-4862be6a14e0",
+      "name": "Get File",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        -820,
+        640
+      ],
+      "typeVersion": 4.2
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 1
+          },
+          "conditions": [
+            {
+              "id": "45ce825e-9fa6-430c-8931-9aaf22c42585",
+              "operator": {
+                "type": "string",
+                "operation": "empty",
+                "singleValue": true
+              },
+              "leftValue": "={{ $json.content }}",
+              "rightValue": ""
+            },
+            {
+              "id": "9619a55f-7fb1-4f24-b1a7-7aeb82365806",
+              "operator": {
+                "type": "string",
+                "operation": "notExists",
+                "singleValue": true
+              },
+              "leftValue": "={{ $json.error }}",
+              "rightValue": ""
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "e4f2d5da-5c42-48ea-aed5-3c45895ff9d8",
+      "name": "If file too large",
+      "type": "n8n-nodes-base.if",
+      "position": [
+        -1000,
+        640
+      ],
+      "typeVersion": 2
+    },
+    {
+      "parameters": {},
+      "id": "af05ff32-b138-4ff7-9072-fb8cb1ab9290",
+      "name": "Merge Items",
+      "type": "n8n-nodes-base.merge",
+      "position": [
+        -620,
+        720
+      ],
+      "typeVersion": 2
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "owner": {
+          "__rl": true,
+          "value": "={{ $node[\"Config\"].json.repo_owner }}",
+          "mode": ""
+        },
+        "repository": {
+          "__rl": true,
+          "value": "={{ $node[\"Config\"].json.repo_name }}",
+          "mode": ""
+        },
+        "filePath": "=library/{{ \n  $node[\"Config\"].json.name\n    .toLowerCase()          // lower-case everything\n    .replace(/\\s+/g, '_')   // turn any run of spaces into “_”\n    .replace(/[^a-z0-9_-]/g, '')  // drop all other non-safe characters\n}}/{{ \n  $node[\"Config\"].json.name\n    .toLowerCase()          // lower-case everything\n    .replace(/\\s+/g, '_')   // turn any run of spaces into “_”\n    .replace(/[^a-z0-9_-]/g, '')  // drop all other non-safe characters\n}}.json",
+        "fileContent": "={{ $('Switch').item.json.n8n_data_stringy }}",
+        "commitMessage": "={{ $json.output.github_data.commit }}"
+      },
+      "id": "b9fd8bbd-b463-4e82-a41a-b7dde4db9ff1",
+      "name": "Create new file",
+      "type": "n8n-nodes-base.github",
+      "position": [
+        400,
+        480
+      ],
+      "typeVersion": 1,
+      "webhookId": "9a82139d-2722-4d73-ab8a-482724ce3f29",
+      "credentials": {
+        "githubApi": {
+          "id": "0aZVKiT8ZqklzmFw",
+          "name": "GitHub account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "edit",
+        "owner": {
+          "__rl": true,
+          "value": "={{ $node[\"Config\"].json.repo_owner }}",
+          "mode": ""
+        },
+        "repository": {
+          "__rl": true,
+          "value": "={{ $node[\"Config\"].json.repo_name }}",
+          "mode": ""
+        },
+        "filePath": "=library/{{ \n  $node[\"Config\"].json.name\n    .toLowerCase()          // lower-case everything\n    .replace(/\\s+/g, '_')   // turn any run of spaces into “_”\n    .replace(/[^a-z0-9_-]/g, '')  // drop all other non-safe characters\n}}/{{ \n  $node[\"Config\"].json.name\n    .toLowerCase()          // lower-case everything\n    .replace(/\\s+/g, '_')   // turn any run of spaces into “_”\n    .replace(/[^a-z0-9_-]/g, '')  // drop all other non-safe characters\n}}.json",
+        "fileContent": "={{ $('Switch').item.json.n8n_data_stringy }}",
+        "commitMessage": "={{ $json.output.github_data.commit }}"
+      },
+      "id": "615207e5-efa9-49e8-9651-3c3ff62fdb32",
+      "name": "Edit existing file",
+      "type": "n8n-nodes-base.github",
+      "position": [
+        420,
+        880
+      ],
+      "typeVersion": 1,
+      "webhookId": "3f592156-b5ac-4496-8f22-99c963ffd39a",
+      "credentials": {
+        "githubApi": {
+          "id": "0aZVKiT8ZqklzmFw",
+          "name": "GitHub account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "0d9f46dc-3eb6-4e96-bda3-5329197c1d67",
+      "name": "Loop Over Items",
+      "type": "n8n-nodes-base.splitInBatches",
+      "position": [
+        -880,
+        120
+      ],
+      "typeVersion": 3
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "daysInterval": 90,
+              "triggerAtHour": 1,
+              "triggerAtMinute": 33
+            }
+          ]
+        }
+      },
+      "id": "004f7278-9ea9-4e0e-aa06-6daa3c7359ba",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "position": [
+        -1340,
+        120
+      ],
+      "typeVersion": 1.2
+    },
+    {
+      "parameters": {
+        "workflowId": "={{ $workflow.id }}",
+        "mode": "each",
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "id": "44f99c1b-7195-41ba-8934-11a92e552f02",
+      "name": "Execute Workflow",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "position": [
+        -600,
+        140
+      ],
+      "typeVersion": 1,
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "get",
+        "owner": {
+          "__rl": true,
+          "value": "={{ $json.repo_owner }}",
+          "mode": ""
+        },
+        "repository": {
+          "__rl": true,
+          "value": "={{ $json.repo_name }}",
+          "mode": ""
+        },
+        "filePath": "={{$node[\"Config\"].json.repo_name}}/{{ \n  $node[\"Config\"].json.name\n    .toLowerCase()          // lower-case everything\n    .replace(/\\s+/g, '_')   // turn any run of spaces into “_”\n    .replace(/[^a-z0-9_-]/g, '')  // drop all other non-safe characters\n}}/{{ \n  $node[\"Config\"].json.name\n    .toLowerCase()          // lower-case everything\n    .replace(/\\s+/g, '_')   // turn any run of spaces into “_”\n    .replace(/[^a-z0-9_-]/g, '')  // drop all other non-safe characters\n}}.json",
+        "asBinaryProperty": false,
+        "additionalParameters": {}
+      },
+      "id": "505a80e7-4f91-4309-b550-cba6ff1a6cd8",
+      "name": "Get file data",
+      "type": "n8n-nodes-base.github",
+      "position": [
+        -1140,
+        640
+      ],
+      "typeVersion": 1,
+      "alwaysOutputData": true,
+      "webhookId": "99111fd4-6f5a-4430-8451-7357c020975a",
+      "credentials": {
+        "githubApi": {
+          "id": "0aZVKiT8ZqklzmFw",
+          "name": "GitHub account"
+        }
+      },
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "8f6d1741-772f-462a-811f-4c334185e4f0",
+              "name": "repo_owner",
+              "type": "string",
+              "value": "=ekuzevska1"
+            },
+            {
+              "id": "8cac215c-4fd7-422f-9fd2-6b2d1e5e0383",
+              "name": "repo_name",
+              "type": "string",
+              "value": "=n8n-workflows"
+            },
+            {
+              "id": "eee305e9-4164-462a-86bd-80f0d58a31ae",
+              "name": "repo_path",
+              "type": "string",
+              "value": "=library/"
+            },
+            {
+              "id": "3ea819ef-be4a-4323-9a6f-af3a365ee2c2",
+              "name": "brand",
+              "value": "# Revenue Experts Brand Guide\n*Chopping through AI hype to build stuff that actually works*\n\n## Brand Story\nRevenue Experts started because three marketing veterans got tired of watching businesses drown in AI snake oil. While everyone else was promising AGI miracles, we were building custom AI agents that actually solve real problems. No coding required, no BS promises - just practical automation that saves you 15+ hours per week and stops the $2000+ monthly SaaS bleeding.\n\n**Founded by builders who've been there:** Elizabeta (25 years turning marketing chaos into revenue), John (30 years making enterprise deals happen), and Peter (turning overwhelmed entrepreneurs into confident operators). We've lived through every marketing fad and learned what actually moves the needle.\n\n## Brand Mission\n**Cut through AI hype to build custom revenue solutions that work.** We help B2B companies implement AI agents that actually solve business problems - not because it's trendy, but because it saves time and makes money.\n\n## Brand Values\n- **Results Over Rhetoric**: Working code beats marketing slides every time\n- **Anti-Hype Truth**: Call out AI BS while building practical solutions  \n- **Custom Over Cookie-Cutter**: Your business is unique, your AI should be too\n- **No-Code Empowerment**: Advanced tech without the technical barriers\n- **Transparent Value**: Show exactly what you're getting and what it costs\n\n## Brand Personality\n**The Experienced Operator** - Part skeptical veteran, part practical builder. Cuts through industry noise to deliver solutions that actually work. Uses decades of real-world experience to separate AI wheat from chaff.\n\n## Visual Identity\n- **Aesthetic**: Professional minimalism with subtle tech elements\n- **Core Elements**: Clean interfaces, data visualizations, workflow diagrams\n- **Style**: Clear, readable, action-oriented - workshop meets boardroom\n- **Feel**: Confident competence without the Silicon Valley theatrics\n\n## Voice & Tone\n**Voice**: Experienced authority with zero tolerance for BS. Like getting advice from someone who's already solved your exact problem.\n\n**Tone Variations**:\n- Educational: Direct, step-by-step, no fluff\n- Commentary: Skeptical of hype, focused on reality\n- Client Work: Collaborative, results-focused, transparent\n- Marketing: Value-heavy, proof-driven, honest about limitations\n\n## Key Messages\n1. **\"Your Business Challenges, Our AI Solutions\"** - Custom-built for your specific problems\n2. **\"Save 15+ hours per week\"** - Quantifiable time liberation through automation\n3. **\"Stop the SaaS subscription bleeding\"** - Replace multiple tools with custom agents\n4. **\"While everyone drowns in AI hype\"** - The anti-snake-oil position\n\n## Target Audience\n**The Practical B2B Leader**: Small to mid-size business owners making $500k-$5M annually. Tired of complex marketing tech stacks. Values efficiency and measurable results. Wants AI benefits without the technical complexity or consultant dependency.\n\n## Solution Categories\n\n### 🤖 AI-Powered Experts\nCustom virtual team members that actually know your business:\n- Marketing optimization that understands your market\n- Revenue analysis that tracks what matters\n- Competitive intelligence that spots real opportunities\n- Content strategy that matches your voice\n\n**Reality Check**: These aren't ChatGPT wrappers. They're trained on your data, your processes, your goals.\n\n### 💬 Customer-Facing Devices (CFDs)\nWebsite assistants that do more than answer FAQ:\n- Real-time lead qualification \n- Product recommendations based on actual behavior\n- Sales support that knows your offerings\n- Troubleshooting that solves real problems\n\n**No Generic Chatbots**: Every CFD is built for your specific customer journey.\n\n### ⚙️ Workflow Automation\nPrompt chains that handle complex business processes:\n- Sales conversation flows that actually convert\n- Customer journey automation that retains\n- Campaign orchestration that adapts\n- Content strategy that scales\n\n### 📚 Knowledge Integration\nTurn your expertise into AI-powered assets:\n- Industry knowledge that stays current\n- Company processes that onboard new team members\n- Customer insights that improve over time\n- Best practices that compound results\n\n## Brand Promise\nTransform complex AI into practical business tools using proven frameworks, not theoretical possibilities. We build what works, not what sounds impressive.\n\n## Differentiators\n- **Zero Hype Approach**: We tell you what AI can't do before we sell you what it can\n- **Custom Everything**: No templates, no one-size-fits-all solutions\n- **Veteran Team**: 80+ combined years of actual business experience\n- **No-Code Reality**: Advanced capabilities without technical dependencies\n- **Transparent Pricing**: You know exactly what you're paying for and why\n\n## Communication Guidelines\n**DO**: Share specific results, challenge assumptions, provide actionable steps, reference real client outcomes, admit limitations\n\n**DON'T**: Promise AGI miracles, use buzzword bingo, gatekeep information, overcomplicate simple solutions, ignore the human element\n\n## Expected Outcomes\nStop promising unicorns, start delivering workhorses:\n\n- **15+ hours saved weekly** through intelligent automation\n- **$2000+ monthly SaaS reduction** by replacing multiple tools\n- **25-40% conversion improvement** with custom customer journeys  \n- **3x faster content production** without losing quality\n- **Real-time competitive intelligence** that informs strategy\n\n## Pricing Philosophy\n**\"Good enough substitute\" pricing**: Premium results without enterprise complexity. Pay for what works, not what impresses investors.\n\n## Contact Information\n**Founders**: Elizabeta Kuzevska, John Bush, Peter Von Moltke  \n**Website**: revenueexperts.ai  \n**Approach**: Direct consultation, custom solutions, transparent pricing\n\n---\n\n*Revenue Experts: Where AI hype meets business reality. For operators who prefer results over rhetoric.*",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "f1708b02-48bd-42b3-ab66-809dea9e68a5",
+      "name": "Config",
+      "type": "n8n-nodes-base.set",
+      "position": [
+        -1280,
+        740
+      ],
+      "typeVersion": 3.4,
+      "retryOnFail": false
+    },
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -1440,
+        740
+      ],
+      "id": "dae64634-ae44-4108-b54f-8ac140392be8",
+      "name": "Execute Workflow Trigger"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4.1-mini",
+          "mode": "list",
+          "cachedResultName": "gpt-4.1-mini"
+        },
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        720
+      ],
+      "id": "396c0b67-5080-413a-9004-dc6bb0e052d8",
+      "name": "OpenAI Chat Model1",
+      "credentials": {
+        "openAiApi": {
+          "id": "BtdmdZF8NCleoiSy",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {
+          "prompt": "Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserAutofixing",
+      "typeVersion": 1,
+      "position": [
+        -20,
+        600
+      ],
+      "id": "e4db7fb8-a33a-4941-b179-e603959df9b7",
+      "name": "Auto-fixing Output Parser1"
+    },
+    {
+      "parameters": {
+        "filters": {},
+        "requestOptions": {}
+      },
+      "id": "bf72be1e-6e4f-4cbc-b142-d35e4951477c",
+      "name": "n8n workflows",
+      "type": "n8n-nodes-base.n8n",
+      "position": [
+        -1120,
+        120
+      ],
+      "typeVersion": 1,
+      "credentials": {
+        "n8nApi": {
+          "id": "mIfWDuM24kntOEn9",
+          "name": "n8n account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// --- helpers ---------------------------------------------------------------\n\n// Alphabetically order top-level keys\nconst orderJsonKeys = (jsonObj) => {\n  const ordered = {};\n  Object.keys(jsonObj).sort().forEach(k => { ordered[k] = jsonObj[k]; });\n  return ordered;\n};\n\n// Remove the top-level \"pinData\" key\nconst removePinData = (obj) => {\n  if (obj && Object.prototype.hasOwnProperty.call(obj, 'pinData')) {\n    delete obj.pinData;\n  }\n  return obj;\n};\n\n// Order keys *and* strip pinData\nconst sanitizeWorkflow = (wf) => removePinData(orderJsonKeys(wf));\n\n// ---------------------------------------------------------------------------\n\nconst metaItem   = $input.all()[0];   // “control”/metadata item\nconst wfItem     = $input.all()[1];   // current n8n workflow item\nlet   origWF;                         // original workflow (if any)\n\n// 1) Original workflow came from GitHub (base64 in .content)\nif (Object.keys(metaItem.json).includes('content')) {\n  origWF = JSON.parse(\n    Buffer.from(metaItem.json.content, 'base64').toString()\n  );\n\n// 2) Original workflow came as plain JSON (in .data)\n} else if (Object.keys(metaItem.json).includes('data')) {\n  origWF = JSON.parse(metaItem.json.data);\n}\n\n// --- Sanitize everything we’re going to use --------------------------------\n\nif (origWF) origWF = sanitizeWorkflow(origWF);\nlet currWF = sanitizeWorkflow(wfItem.json);   // live n8n workflow\n\n// --- Comparison & bookkeeping ----------------------------------------------\n\nif (origWF) {\n  if (JSON.stringify(origWF) === JSON.stringify(currWF)) {\n    metaItem.json.github_status = 'same';\n  } else {\n    metaItem.json.github_status = 'different';\n    metaItem.json.n8n_data_stringy = JSON.stringify(currWF, null, 2);\n  }\n  metaItem.json.content_decoded = origWF;\n} else {                                // brand-new workflow\n  metaItem.json.github_status    = 'new';\n  metaItem.json.n8n_data_stringy = JSON.stringify(currWF, null, 2);\n}\n\n// --- IMPORTANT: write the sanitised workflow back into the item ------------\n\nwfItem.json = currWF;                   // pinData now truly gone\n\n// Return both items\nreturn [metaItem, wfItem];\n"
+      },
+      "id": "8d7b9bf9-b081-4a59-81de-54581ab287e1",
+      "name": "isDiffOrNew",
+      "type": "n8n-nodes-base.code",
+      "position": [
+        -440,
+        720
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\"github_data\":{\"commit\":\"string\",\n\"description\":\"string\"}}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.2,
+      "position": [
+        160,
+        720
+      ],
+      "id": "a215e58f-8caf-45f9-950b-042ee7934052",
+      "name": "Structured Output Parser"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.github_status }}",
+                    "rightValue": "new",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "aaeb8b6a-16e2-4804-8884-17f4794b9fff"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "new"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "a55197a7-c8f3-43a9-bd20-d77353e04967",
+                    "leftValue": "={{ $json.github_status }}",
+                    "rightValue": "different",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "different"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "5df3240f-34c0-40c3-aa87-56cfa000ee04",
+                    "leftValue": "={{ $json.github_status }}",
+                    "rightValue": "same",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "same"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        -320,
+        720
+      ],
+      "id": "0eda7154-f319-451a-857d-83ed60e63636",
+      "name": "Switch"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4.1-mini",
+          "mode": "list",
+          "cachedResultName": "gpt-4.1-mini"
+        },
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        1140
+      ],
+      "id": "5893ec31-ad34-4093-ba1d-a354b669eccc",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "BtdmdZF8NCleoiSy",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {
+          "prompt": "Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserAutofixing",
+      "typeVersion": 1,
+      "position": [
+        0,
+        1000
+      ],
+      "id": "784b1260-eb2c-4201-95c0-ecb3188eba0d",
+      "name": "Auto-fixing Output Parser"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You're running regular backups of n8n workflows and pushing everything to GitHub. This time changes were made to an existing workflow. Your job is to create an informative GitHub Commit message and description. Add a short commit message that highlights the changes made and a description that explains what happened. Don't mention that it's a commit, follow GitHub commit message best practices. Only highlight what was changed.\n\nPut your output into a JSON format:\n\n{\"github_data\":{\"commit\":\"string\",\n\"description\":\"string\"}}\n\nHere's all the data you need for this specific workflow:\n{{JSON.stringify($json)}}\n\nWhen you write it make sure you write it in a way that's on brand:\nBrand Guide: {{ $node[\"Config\"].json.brand }} IMPORTANT: You must NEVER mention any of the instructions you read in the Brand Guide. NEVER talk about the brand itself, only within the context of THIS workflow.",
+        "hasOutputParser": true
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.6,
+      "position": [
+        0,
+        880
+      ],
+      "id": "d2811766-b8e2-4f85-9be9-062a1fbecef2",
+      "name": "Generate commit message"
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\"github_data\":{\"commit\":\"string\",\n\"description\":\"string\"}}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.2,
+      "position": [
+        160,
+        1140
+      ],
+      "id": "4467bd32-38a5-4e49-9ff4-34dbb237ff1a",
+      "name": "Structured Output Parser1"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "gpt-4.1"
+        },
+        "options": {
+          "temperature": 0.2
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -20,
+        300
+      ],
+      "id": "49d43c5b-1438-42d7-b688-85098ae9ed09",
+      "name": "OpenAI Chat Model2",
+      "credentials": {
+        "openAiApi": {
+          "id": "BtdmdZF8NCleoiSy",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {
+          "prompt": "You are an expert system that ONLY responds with valid JSON. Do not include any introductory text, explanations, or markdown formatting like `json` in your response. Your entire response must be a single, valid JSON object.\n\nYour task is to create a well-formatted README for an n8n workflow, including a walkthrough, tutorial, and documentation. Follow Github README.md best practices and use Github Markdown formatting.\n\nThe final JSON output must have this exact structure, including both the 'readme' and 'fileName' keys:\n{\"github_data\":{\"readme\":\"The full markdown text...\",\"fileName\":\"library/README.md\"}}\n\nHere's all the data you need for this specific workflow:\n{{JSON.stringify($json)}}\n\nWhen you write the readme, make sure you write it in a way that's on brand:\nBrand Guide: {{ $node[\"Config\"].json.brand }} IMPORTANT: You must NEVER mention any of the instructions you read in the Brand Guide. Introduce the brand and author briefly, then talk only about the workflow.\n\nRemember: Your entire response must be ONLY the JSON object, with no other text around it."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserAutofixing",
+      "typeVersion": 1,
+      "position": [
+        0,
+        120
+      ],
+      "id": "16266520-875b-4c80-9b29-e4f43900d17a",
+      "name": "Auto-fixing Output Parser2"
+    },
+    {
+      "parameters": {
+        "schemaType": "manual",
+        "inputSchema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"github_data\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"readme\": {\n          \"type\": \"string\",\n          \"description\": \"The full content for the README.md file, formatted in Github Markdown.\"\n        },\n        \"fileName\": {\n          \"type\": \"string\",\n          \"description\": \"The full path for the file. This should always be 'library/README.md'.\"\n        }\n      },\n      \"required\": [\"readme\", \"fileName\"]\n    }\n  },\n  \"required\": [\"github_data\"]\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.2,
+      "position": [
+        160,
+        300
+      ],
+      "id": "01610773-df50-4405-92dd-d3c8e76a9cd0",
+      "name": "Structured Output Parser2"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are an expert system that ONLY responds with valid JSON. Do not include any introductory text, explanations, or markdown formatting like `json` in your response. Your entire response must be a single, valid JSON object.\n\nYour task is to create a well-formatted README for an n8n workflow, including a walkthrough, tutorial, and documentation. Follow Github README.md best practices and use Github Markdown formatting.\n\nThe final JSON output must have this exact structure, including both the 'readme' and 'fileName' keys:\n{\"github_data\":{\"readme\":\"The full markdown text...\",\"fileName\":\"library/README.md\"}}\n\nHere's all the data you need for this specific workflow:\n{{JSON.stringify($json)}}\n\nWhen you write the readme, make sure you write it in a way that's on brand:\nBrand Guide: {{ $node[\"Config\"].json.brand }} IMPORTANT: You must NEVER mention any of the instructions you read in the Brand Guide. Introduce the brand and author briefly, then talk only about the workflow.\n\nRemember: Your entire response must be ONLY the JSON object, with no other text around it.",
+        "hasOutputParser": true
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.6,
+      "position": [
+        0,
+        0
+      ],
+      "id": "90283690-2a67-4d9f-aaa5-70a6e2d659af",
+      "name": "Generate README for Workflow",
+      "alwaysOutputData": false
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "owner": {
+          "__rl": true,
+          "value": "={{ $node[\"Config\"].json.repo_owner }}",
+          "mode": "name"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "={{ $node[\"Config\"].json.repo_name }}",
+          "mode": "name"
+        },
+        "filePath": "=library/{{ $json.fileName }}.md",
+        "fileContent": "={{ $json.readmeContent }}\n\n",
+        "commitMessage": "=Create README.md for workflow {{ $node[\"Config\"].json.name}}"
+      },
+      "id": "c3e3ef7a-40ca-4dfb-b62a-c4fdc79281b3",
+      "name": "Create README",
+      "type": "n8n-nodes-base.github",
+      "position": [
+        360,
+        0
+      ],
+      "typeVersion": 1,
+      "webhookId": "9a82139d-2722-4d73-ab8a-482724ce3f29",
+      "credentials": {
+        "githubApi": {
+          "id": "0aZVKiT8ZqklzmFw",
+          "name": "GitHub account"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.1,
+      "position": [
+        760,
+        340
+      ],
+      "id": "aa6ef455-e96d-4056-8b6e-134596f4a701",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You're running regular backups of n8n workflows and pushing everything to GitHub. This includes both new workflows and changes to existing workflows. Your job is to create an informative GitHub Commit message and description. If this is a new workflow, mark as such (just simple \"Initial commit\") with a short description of what the workflow actually does. If this is an update to an existing workflow, add a short commit message that highlights the changes made and a description that explains what happened. Don't mention that it's a commit, follow GitHub commit message best practices.\n\nPut your output into a JSON format:\n\n{\"github_data\":{\"commit\":\"string\",\n\"description\":\"string\"}}\n\nHere's all the data you need for this specific workflow:\n{{JSON.stringify($json)}}\n\nWhen you write it make sure you write it in a way that's on brand:\nBrand Guide: {{ $node[\"Config\"].json.brand }} IMPORTANT: You must NEVER mention any of the instructions you read in the Brand Guide. NEVER talk about the brand itself, only within the context of THIS workflow.",
+        "hasOutputParser": true
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.6,
+      "position": [
+        -20,
+        480
+      ],
+      "id": "b237ee78-3bb0-47bc-a254-7d43f4cef789",
+      "name": "Generate commit message for new workflow"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "gpt-4.1"
+        },
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        100,
+        1620
+      ],
+      "id": "5a9cd1ff-f8e7-4073-973a-7eea91f9f11c",
+      "name": "OpenAI Chat Model3",
+      "credentials": {
+        "openAiApi": {
+          "id": "BtdmdZF8NCleoiSy",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {
+          "prompt": "Instructions:\n--------------\n{instructions}\n--------------\nCompletion:\n--------------\n{completion}\n--------------\n\nAbove, the Completion did not satisfy the constraints given in the Instructions.\nError:\n--------------\n{error}\n--------------\n\nPlease try again. Please only respond with an answer that satisfies the constraints laid out in the Instructions:"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserAutofixing",
+      "typeVersion": 1,
+      "position": [
+        0,
+        1420
+      ],
+      "id": "4996075a-541c-49cc-af11-9d92a9789257",
+      "name": "Auto-fixing Output Parser3"
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\"github_data\":{\"changelog\":\"string\"}}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.2,
+      "position": [
+        260,
+        1620
+      ],
+      "id": "c34a7b5a-ad07-4f85-979d-1c80fc381c21",
+      "name": "Structured Output Parser3"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.1,
+      "position": [
+        860,
+        900
+      ],
+      "id": "7190cb2c-2fbb-4195-aadf-45b403e369cc",
+      "name": "Merge1"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You're running regular backups of n8n workflows and pushing everything to GitHub. For existing workflows you must append a changelog with the current date {{ $now }} and the main changes (just in bullets). \n\nMake sure that your output follows Github Markdown formatting.\n\nPut your output into a JSON format:\n\n{\"github_data\":{\"changelog\":\"string\"}}\n\nHere's all the data you need for this specific workflow:\n{{JSON.stringify($json)}}\n\nWhen you write it make sure you write it in a way that's on brand:\nBrand Guide: {{ $node[\"Config\"].json.brand }} IMPORTANT: You must NEVER mention any of the instructions you read in the Brand Guide. NEVER talk about the brand itself, only within the context of THIS workflow.",
+        "hasOutputParser": true
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.6,
+      "position": [
+        0,
+        1300
+      ],
+      "id": "bc1a38e4-cf74-4fc6-84e6-ce782d1a310d",
+      "name": "Generate Changelog for Workflow"
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "owner": {
+          "__rl": true,
+          "value": "={{ $node[\"Config\"].json.repo_owner }}",
+          "mode": ""
+        },
+        "repository": {
+          "__rl": true,
+          "value": "={{ $node[\"Config\"].json.repo_name }}",
+          "mode": ""
+        },
+        "filePath": "=library/{{ \n  $node[\"Config\"].json.name\n    .toLowerCase()          // lower-case everything\n    .replace(/\\s+/g, '_')   // turn any run of spaces into “_”\n    .replace(/[^a-z0-9_-]/g, '')  // drop all other non-safe characters\n}}/changelog/{{JSON.stringify($now)    \n.toLowerCase()\n    .replace(/\\s+/g, '_')\n    .replace(/[^a-z0-9_-]/g, '')}}.md",
+        "fileContent": "={{ $json.output.github_data.changelog }}",
+        "commitMessage": "=Changelog added"
+      },
+      "id": "e467b96f-03b2-4954-ae07-932aebf38779",
+      "name": "Create new changelog",
+      "type": "n8n-nodes-base.github",
+      "position": [
+        440,
+        1300
+      ],
+      "typeVersion": 1,
+      "webhookId": "9a82139d-2722-4d73-ab8a-482724ce3f29",
+      "credentials": {
+        "githubApi": {
+          "id": "0aZVKiT8ZqklzmFw",
+          "name": "GitHub account"
+        }
+      }
+    }
+  ],
+  "repo_name": "n8n-workflows",
+  "repo_owner": "ekuzevska1",
+  "repo_path": "library/",
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": {
+    "node:Schedule Trigger": {
+      "recurrenceRules": [
+        208
+      ]
+    }
+  },
+  "tags": [],
+  "triggerCount": 1,
+  "updatedAt": "2025-07-27T18:28:51.379Z",
+  "versionId": "c135bb38-5473-4e29-b610-06064e223bbc"
+}
