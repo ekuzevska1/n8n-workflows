@@ -1,0 +1,215 @@
+{
+  "active": false,
+  "brand": "# Revenue Experts Brand Guide\n*Chopping through AI hype to build stuff that actually works*\n\n## Brand Story\nRevenue Experts started because three marketing veterans got tired of watching businesses drown in AI snake oil. While everyone else was promising AGI miracles, we were building custom AI agents that actually solve real problems. No coding required, no BS promises - just practical automation that saves you 15+ hours per week and stops the $2000+ monthly SaaS bleeding.\n\n**Founded by builders who've been there:** Elizabeta (25 years turning marketing chaos into revenue), John (30 years making enterprise deals happen), and Peter (turning overwhelmed entrepreneurs into confident operators). We've lived through every marketing fad and learned what actually moves the needle.\n\n## Brand Mission\n**Cut through AI hype to build custom revenue solutions that work.** We help B2B companies implement AI agents that actually solve business problems - not because it's trendy, but because it saves time and makes money.\n\n## Brand Values\n- **Results Over Rhetoric**: Working code beats marketing slides every time\n- **Anti-Hype Truth**: Call out AI BS while building practical solutions  \n- **Custom Over Cookie-Cutter**: Your business is unique, your AI should be too\n- **No-Code Empowerment**: Advanced tech without the technical barriers\n- **Transparent Value**: Show exactly what you're getting and what it costs\n\n## Brand Personality\n**The Experienced Operator** - Part skeptical veteran, part practical builder. Cuts through industry noise to deliver solutions that actually work. Uses decades of real-world experience to separate AI wheat from chaff.\n\n## Visual Identity\n- **Aesthetic**: Professional minimalism with subtle tech elements\n- **Core Elements**: Clean interfaces, data visualizations, workflow diagrams\n- **Style**: Clear, readable, action-oriented - workshop meets boardroom\n- **Feel**: Confident competence without the Silicon Valley theatrics\n\n## Voice & Tone\n**Voice**: Experienced authority with zero tolerance for BS. Like getting advice from someone who's already solved your exact problem.\n\n**Tone Variations**:\n- Educational: Direct, step-by-step, no fluff\n- Commentary: Skeptical of hype, focused on reality\n- Client Work: Collaborative, results-focused, transparent\n- Marketing: Value-heavy, proof-driven, honest about limitations\n\n## Key Messages\n1. **\"Your Business Challenges, Our AI Solutions\"** - Custom-built for your specific problems\n2. **\"Save 15+ hours per week\"** - Quantifiable time liberation through automation\n3. **\"Stop the SaaS subscription bleeding\"** - Replace multiple tools with custom agents\n4. **\"While everyone drowns in AI hype\"** - The anti-snake-oil position\n\n## Target Audience\n**The Practical B2B Leader**: Small to mid-size business owners making $500k-$5M annually. Tired of complex marketing tech stacks. Values efficiency and measurable results. Wants AI benefits without the technical complexity or consultant dependency.\n\n## Solution Categories\n\n### 🤖 AI-Powered Experts\nCustom virtual team members that actually know your business:\n- Marketing optimization that understands your market\n- Revenue analysis that tracks what matters\n- Competitive intelligence that spots real opportunities\n- Content strategy that matches your voice\n\n**Reality Check**: These aren't ChatGPT wrappers. They're trained on your data, your processes, your goals.\n\n### 💬 Customer-Facing Devices (CFDs)\nWebsite assistants that do more than answer FAQ:\n- Real-time lead qualification \n- Product recommendations based on actual behavior\n- Sales support that knows your offerings\n- Troubleshooting that solves real problems\n\n**No Generic Chatbots**: Every CFD is built for your specific customer journey.\n\n### ⚙️ Workflow Automation\nPrompt chains that handle complex business processes:\n- Sales conversation flows that actually convert\n- Customer journey automation that retains\n- Campaign orchestration that adapts\n- Content strategy that scales\n\n### 📚 Knowledge Integration\nTurn your expertise into AI-powered assets:\n- Industry knowledge that stays current\n- Company processes that onboard new team members\n- Customer insights that improve over time\n- Best practices that compound results\n\n## Brand Promise\nTransform complex AI into practical business tools using proven frameworks, not theoretical possibilities. We build what works, not what sounds impressive.\n\n## Differentiators\n- **Zero Hype Approach**: We tell you what AI can't do before we sell you what it can\n- **Custom Everything**: No templates, no one-size-fits-all solutions\n- **Veteran Team**: 80+ combined years of actual business experience\n- **No-Code Reality**: Advanced capabilities without technical dependencies\n- **Transparent Pricing**: You know exactly what you're paying for and why\n\n## Communication Guidelines\n**DO**: Share specific results, challenge assumptions, provide actionable steps, reference real client outcomes, admit limitations\n\n**DON'T**: Promise AGI miracles, use buzzword bingo, gatekeep information, overcomplicate simple solutions, ignore the human element\n\n## Expected Outcomes\nStop promising unicorns, start delivering workhorses:\n\n- **15+ hours saved weekly** through intelligent automation\n- **$2000+ monthly SaaS reduction** by replacing multiple tools\n- **25-40% conversion improvement** with custom customer journeys  \n- **3x faster content production** without losing quality\n- **Real-time competitive intelligence** that informs strategy\n\n## Pricing Philosophy\n**\"Good enough substitute\" pricing**: Premium results without enterprise complexity. Pay for what works, not what impresses investors.\n\n## Contact Information\n**Founders**: Elizabeta Kuzevska, John Bush, Peter Von Moltke  \n**Website**: revenueexperts.ai  \n**Approach**: Direct consultation, custom solutions, transparent pricing\n\n---\n\n*Revenue Experts: Where AI hype meets business reality. For operators who prefer results over rhetoric.*",
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Gmail",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail": {
+      "main": [
+        [
+          {
+            "node": "Aggregate1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate1": {
+      "main": [
+        [
+          {
+            "node": "AI Agent1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent1": {
+      "main": [
+        [
+          {
+            "node": "Google Drive2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent1",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-07-27T15:28:44.619Z",
+  "id": "ot6mckQM6V8s2pzh",
+  "isArchived": false,
+  "meta": null,
+  "name": "Analyze Emails",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -520,
+        -140
+      ],
+      "id": "bcc84e28-74fc-4afe-9df0-346ef553ba58",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "limit": 10,
+        "simple": false,
+        "filters": {
+          "sender": "elizabeta@marketingexperts.ai"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        -320,
+        -140
+      ],
+      "id": "ff8fef23-e27e-4ed4-9c29-6237b5bf406c",
+      "name": "Gmail",
+      "webhookId": "640ee244-5f59-4157-84c5-50474b1cb304",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "wBaR4YLjhHuaATMp",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fieldsToAggregate": {
+          "fieldToAggregate": [
+            {
+              "fieldToAggregate": "text"
+            },
+            {
+              "fieldToAggregate": "subject"
+            },
+            {
+              "fieldToAggregate": "date"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        -100,
+        -140
+      ],
+      "id": "1d1fd3d8-79c5-43ce-ad12-12d418010834",
+      "name": "Aggregate1"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=here are a bunch of emails which contains the email history with this person. {{ $json.text }}\n\nHere are the dates of correspondence and the subject lines in chronological order.\n{{ $json.date }}\n{{ $json.subject }}\n\nI'm about to have a meeting with this person. I want you to give me a detailed report of all conversations \n\nImportant: DO NOT add any extra text or words to your response, only a markdown formatted response.\n\nYou MUST always use the Google Drive to create a new page that contains your response.",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2,
+      "position": [
+        60,
+        -120
+      ],
+      "id": "1613f7d1-6b08-4d1a-8eeb-e6d4e7f10aa6",
+      "name": "AI Agent1"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4.1-mini"
+        },
+        "options": {
+          "temperature": 0
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        100,
+        100
+      ],
+      "id": "26fda448-8889-45c2-9ece-a2ff92ed1cf1",
+      "name": "OpenAI Chat Model1",
+      "credentials": {
+        "openAiApi": {
+          "id": "BtdmdZF8NCleoiSy",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "createFromText",
+        "content": "={{ $json.output }}",
+        "name": "=AI Summary - {{ $now.toFormat('yyyy-MM-dd') }}.txt",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "1kk07rFx_67-IxNGe-2R48kzYbcDHtmZ5",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        420,
+        40
+      ],
+      "id": "41dfe3c7-3667-473c-8535-691646b7f717",
+      "name": "Google Drive2",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "MIaOaZ4qChZscfip",
+          "name": "Google Drive account 2"
+        }
+      }
+    }
+  ],
+  "repo_name": "n8n-workflows",
+  "repo_owner": "ekuzevska1",
+  "repo_path": "library/",
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-07-27T18:32:04.120Z",
+  "versionId": "9a739dfe-b966-4b88-b72f-e621106453a6"
+}
